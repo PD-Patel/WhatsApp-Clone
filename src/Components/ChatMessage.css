@@ -1,0 +1,30 @@
+.chat-message {
+  display: flex;
+  margin: 15px 30px 15px 30px;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  max-width: 400px;
+  padding: 10px;
+  background-color: #dcf8c6;
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.chat-message-text {
+  text-align: left;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.chat-message-date {
+  font-size: 11px;
+  color: gray;
+  font-weight: normal;
+  align-self: flex-end;
+}
+
+.emoji-picker-react {
+  position: absolute !important;
+  top: -325px;
+}
